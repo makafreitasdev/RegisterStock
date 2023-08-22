@@ -1,0 +1,29 @@
+.loginContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #276873;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    height: 30px;
+    border-style: none;
+    outline: none;
+    border-bottom: 0.5px solid #276873;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    color: #276873;
+}
+
+.loginCadastro {
+    cursor: pointer;
+}
