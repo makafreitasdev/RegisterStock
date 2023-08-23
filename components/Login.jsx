@@ -8,10 +8,10 @@ export default function Login() {
         <input type="text" placeholder='usuário' className={styles.input} />
       </div>
       <div className={styles.inputContainer}>
-        <input type="text" placeholder='senha' className={styles.input} />
+        <input type="password" placeholder='senha' className={styles.input} />
       </div>
       <Button />
-      <p className={styles.loginCadastro}>Cadastre-se</p>
+      <a href='#' className={styles.loginCadastro}>Cadastre-se</a>
     </div>
   );
 }
