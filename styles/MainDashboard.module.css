@@ -1,0 +1,5 @@
+.mainContainer {
+    display: flex;
+    margin: 15px;
+    height: 100vh;
+}

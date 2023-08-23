@@ -2,7 +2,7 @@ import styles from './Logo.module.css'
 
 export default function Logo() {
   return (
-    <a href='#'>
+    <a>
       <h1 className={styles.logo}>R&S</h1>
     </a>
   );

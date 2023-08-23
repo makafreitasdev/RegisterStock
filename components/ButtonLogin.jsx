@@ -1,6 +1,6 @@
-import styles from './Button.module.css'
+import styles from './ButtonLogin.module.css'
 
-export default function Button() {
+export default function ButtonLogin() {
   return (
     <div>
       <button className={styles.loginButton}>Entrar</button>
