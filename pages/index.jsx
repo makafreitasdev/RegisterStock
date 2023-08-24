@@ -15,10 +15,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <header className={styles.headerContainer}>
-        <div className="header-logo">
+        <div>
           <Logo />
         </div>
-        <div className="header-login">
+        <div>
           <Login />
         </div>
       </header>

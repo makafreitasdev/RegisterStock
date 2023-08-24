@@ -10,8 +10,12 @@ body {
   overflow-x: hidden;
 }
 
-body {
+header {
   background-color: whitesmoke;
+}
+
+main {
+  background-color: white;
 }
 
 a {
