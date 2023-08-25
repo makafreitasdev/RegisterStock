@@ -12,11 +12,12 @@
 }
 
 .searchContent {
-    display: flex;
+    display: none;
+    gap: 10px;
 }
 
 .searchInput {
-    width: 450px;
+    width: 400px;
     height: 50px;
     padding-left: 20px;
     outline: none;
@@ -56,24 +57,3 @@
 	top:1px;
 }
 
-.tableContent {
-    padding-top: 30px;
-}
-
-.table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family:Arial;
-}
-
-.tableHead {
-    border: 0.3px solid lightgray;
-    padding: 8px;
-    text-align: left;
-}
-
-.tableData {
-    padding: 8px;
-    text-align: left;
-    border: 0.3px solid lightgray;
-}

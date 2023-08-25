@@ -4,7 +4,7 @@ import styles from "../styles/Header.module.css";
 import Navegacao from "../components/dashboard/Navegacao";
 import MainDashboard from "../styles/MainDashboard.module.css"
 import Image from "next/image";
-import Content from "../components/dashborardContent/Content"
+import Register from "../components/dashborardContent/Register"
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
       </header>
       <main className={MainDashboard.mainContainer}>
         <Navegacao />
-        <Content />
+        <Register />
       </main>
     </>
   );

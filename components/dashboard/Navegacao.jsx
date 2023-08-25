@@ -1,18 +1,26 @@
+import { useState } from "react";
 import styles from "../dashboard/Navegacao.module.css";
 
 export default function Navegacao() {
+
+  const [clickClient, setClickClient] = useState(false)
+
+  const handlerClickClient = () => {
+    setClickClient(true)
+  }
+
   return (
     <aside className={styles.leftSide}>
       <nav>
-        <ul className={styles.navComponents}>
+        <div className={styles.navComponents}>
           <h3 className={styles.listTitle}>Cadastro</h3>
-          <li className={styles.listItem}>Clientes</li>
-          <li className={styles.listItem}>Produtos</li>
+          <button className={styles.listItem}>Clientes</button>
+          <button className={styles.listItem}>Produtos</button>
           <h3 className={styles.listTitle}>Estoque</h3>
-          <li className={styles.listItem}>Saldo</li>
-          <li className={styles.listItem}>Entradas</li>
-          <li className={styles.listItem}>Saidas</li>
-        </ul>
+          <button className={styles.listItem}>Saldo</button>
+          <button className={styles.listItem}>Entradas</button>
+          <button className={styles.listItem}>Saidas</button>
+        </div>
       </nav>
     </aside>
   )
